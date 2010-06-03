@@ -1,0 +1,9 @@
+h1. ha.ckers.in
+
+Designer and CSS -> ideamonk
+Fail PHP code -> kitallis
+
+h4. other stuff
+
+Blurb text files names are in lower case with underscores and dashes preserved. Avatar images are similarly named, with either .png and .jpg as a valid formats, it drops back to a default.png if there are no avatars for a certain nick (or he's too shy to get himself clicked). 
+Use tasks/generateUser.rb to add new users on the page.
