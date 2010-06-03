@@ -14,8 +14,8 @@ function get_blurb($nick) {
 	if ($file = fopen($filePath, "r")) { 
 		while(!feof($file)) {
   		echo fgets($file);
-  	}
-	}
+    }
+  }
 	else
 		echo "No description found";
 	fclose($file);
@@ -52,7 +52,8 @@ function get_avatar($nick) {
 		</div>
 		<div id="content">
 		<?php
- 		for($i = 0; $i < count($hackerNicks); $i++) {
+		$i = 0;
+ 		if($i < count($hackerNicks)) {
  		?>
 			<div id="col1">
 				<h4>
